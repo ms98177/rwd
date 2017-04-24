@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Pet Adoption Application</title>
+</head>
+  <body>
+    <h1>Responsive Web Design</h1>
+    <h2>Solving today's Web challenges</h2>
+    <p>Responsive Web Design (RWD) solve many challenges that Web developers
+      face today. People now access the Web using many devices, some that did
+      not exist when many websites were first created. Because of this, some
+      sites do not resolve as intended or even effectively to be usefull for all
+      viewers. Search engines now require or reward sites that are accessible to
+      all viewers. Designing sites that present a specific view on each device is
+      difficult or even impossible. As technology changes, it may impossible
+      to predict how, who, or even what may view today's sites in the future.
+      Because of this, sites must be coded to provide a baseline experience for
+      all users, starting with devices that use the smallest of screens: mobile
+      devices. In order to achieve this goal, elements of RWD should be employed,
+      such as fluid grid that allows proportional/relative sizing, appropriate
+      sized images, and media queries to serve CSS based on device attributes.
+    </p>
+    <p>For a free website evaluation and upgrade proposal, just complete the
+      Website Evaluation Application below.</p>
+    <p>Website Evaluation Application</p>
+    <form method="get">
+      <fieldset>
+        <legend>Customer information</legend>
+        <label>Your full name:
+          <input type="text" name="full-name" required>
+        </label>
+        <br>
+        <label for="website-name">What is the name of your website?</label>
+        <input type="text" name="website-name" id="website-name" placeholder="www.mysite.com">
+        <br>
+        <label for="site-status">Is this an existing site or do you need a site built?</label>
+        <input type="text" name="site-status" id="site-status">
+        <br>
+        <label for="site-age">If already built, when was the site created?</label>
+        <input type="text" name="site-age" id="site-age">
+        <br>
+      </fieldset>
+      <fieldset>
+        <legend>Site Type</legend>
+        <label for="site-purpose">What is or will be the site's purpose?</label>
+        <select name="site-purpose" id="site-purpose">
+          <option value="">Please choose one</option>
+          <option value="Business">Business</option>
+          <option value="Personal">Personal</option>
+          <option value="eCommerce">eCommerce</option>
+          <option value="Informative">Informative</option>
+          <option value="Organization">Organization</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>What features would you like for your site?</legend>
+        <label>
+          <input type="checkbox" name="features" value="Video">
+          Video
+        </label>
+        <label>
+          <input type="checkbox" name="features" value="Calendar">
+          Calendar
+        </label>
+        <label>
+          <input type="checkbox" name="features" value="Photo Gallery">
+          Photo Gallery
+        </label>
+        <label>
+          <input type="checkbox" name="features" value="Buy Buttons">
+          Buy Buttons
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>How many pages will your site need?</legend>
+        <label>
+          <input type="radio" name="number-of-pages" value="one" required>
+          One
+        </label>
+        <label>
+          <input type="radio" name="number-of-pages" value="2 to 10" required>
+          Two to ten
+        </label>
+        <label>
+          <input type="radio" name="number-of-pages" value="more than 10" required>
+          More than ten
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>What is the budget for your site?</legend>
+        Site Budget <input type="number" name="site-budget">
+      </fieldset>
+      <br>
+      <input type="submit" name="submit" value="Submit">
+    </form>
+  </body>
+</html>
